@@ -6,8 +6,8 @@
 
 #### The pinned repositories below are:
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
-#### 2. [`alignTrack`](https://github.com/glukicov/alignTrack) is for internal alignment (calibration) of the g-2 tracking detector.
-#### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) is personal practice ML code, and Deep Learning on GPUs.
+#### 2. [`alignTrack`](https://github.com/glukicov/alignTrack) is the internal alignment (calibration) codebase.
+#### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs.
 
 
 <!--
