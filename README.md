@@ -1,4 +1,10 @@
-### Hi there 👋
+### Hey there 👋 
+
+##### I am Gleb Lukicov, a PhD candidate in Physics at UCL. Visit my homepage https://glukicov.github.io/ to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
+
+#### On 
+
+
 
 <!--
 **glukicov/glukicov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
