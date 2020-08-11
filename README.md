@@ -1,9 +1,12 @@
-### Hey there 👋 
+## Hey there 👋 
 
-##### I am Gleb Lukicov, a PhD candidate in Physics at UCL. Visit my homepage https://glukicov.github.io/ to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
+### I am Gleb Lukicov, a PhD candidate in Physics at UCL. Visit [my homepage https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
 
-#### On 
-
+### The pinned repositories below are:
+============
+1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) This project contains some of the analysis code used in my PhD thesis. 
+2. [`alignTrack`](https://github.com/glukicov/alignTrack) This project contains code and plotting scripts for the internal alignment (calibration) of the g-2 tracking detector.
+3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) This project containts personal practice ML code, and Deep Learning on GPUs.
 
 
 <!--
