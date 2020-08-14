@@ -8,7 +8,7 @@
 #### The pinned repositories below are:
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
 The <i>g − 2</i> experiment at Fermilab, near Chicago, is closing on a tantalising sign of New Physics (e.g. a new particle) - deviation between an experimentally measured and theoretically predicted value of the muon magnetic anomaly. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below 
-<div style="text-align:center"><a href=http://www.hep.ucl.ac.uk/~lukicov target="_blank"><img src="edm.gif" width="400"></a></div>
+<div style="text-align:center"><a href=http://www.hep.ucl.ac.uk/~lukicov target="_blank">![](https://github.com/glukicov/EDMTracking/blob/master/emd.gif?raw=true)</a></div>
 
 #### 2. [`alignTrack`](https://github.com/glukicov/alignTrack) is the internal alignment (calibration) codebase.
 This project contains code and plotting scripts for the internal alignment (calibration) of the tracking detector. The alignment procedure aims to establish the corrections to the assumed detector position, and hence, minimise the residuals. This minimisation of the residuals is a statistical problem, involving the optimisation of the p-values (i.e. track quality) of fitted tracks in data. 
