@@ -9,7 +9,7 @@
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
 The <i>g − 2</i> experiment at Fermilab, near Chicago, is closing on a tantalising sign of New Physics (e.g. a new particle) - deviation between an experimentally measured and theoretically predicted value of the muon magnetic anomaly. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below 
 
-![EDM](https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif)
+<img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="200" />
 
 #### 2. [`alignTrack`](https://github.com/glukicov/alignTrack) is the internal alignment (calibration) codebase.
 This project contains code and plotting scripts for the internal alignment (calibration) of the tracking detector. The alignment procedure aims to establish the corrections to the assumed detector position, and hence, minimise the residuals. This minimisation of the residuals is a statistical problem, involving the optimisation of the p-values (i.e. track quality) of fitted tracks in data. 
@@ -17,12 +17,13 @@ This project contains code and plotting scripts for the internal alignment (cali
 * **The alignment procedure and alignment monitoring, including writing the derived calibration constants to the production database (PSQL), are detailed in [the alignment manual (link)](http://gm2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=9857&filename=manual.pdf&version=16)**
 
 Alignment software infrastructure is shown below 
+
 <img src="https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png" height="300" />
 
 #### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs.
 * **I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04** <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website.</a>
 
-![gpu](https://github.com/glukicov/ML_GPU/blob/master/docs/gpu.jpeg)
+<img src="https://github.com/glukicov/ML_GPU/blob/master/docs/gpu.jpeg" height="200" />
 <i>Photo by Caspar Camille Rubin on Unsplash.</i>
 
 <!--
