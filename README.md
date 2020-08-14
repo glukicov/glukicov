@@ -19,7 +19,7 @@ This project contains code and plotting scripts for the internal alignment (cali
 #### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs.
 ### I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a> 
 
-<div style="text-align:center"><a href=http://www.hep.ucl.ac.uk/~lukicov target="_blank"><img src="docs/gpu.jpeg" height="250></a></div>
+<div style="text-align:center"><a href=https://glukicov.github.io target="_blank"><img src="docs/gpu.jpeg" height="450"></a></div>
 <i>Photo by Caspar Camille Rubin on Unsplash.</i>
 
 <!--
