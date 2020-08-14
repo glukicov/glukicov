@@ -7,7 +7,7 @@
 
 ### Visit my homepage [https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
 
-#### The pinned repositories below are:
+### The pinned repositories below are:
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
 The <i>g − 2</i> experiment at Fermilab, near Chicago, is closing on a tantalising sign of New Physics (e.g. a new particle) - deviation between an experimentally measured and theoretically predicted value of the muon magnetic anomaly. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below 
 
