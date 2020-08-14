@@ -3,7 +3,7 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://glukicov.github.io)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://glukicov.github.io)
 
-### I am Gleb Lukicov, a PhD candidate in Physics at UCL. Visit my homepage [https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
+### I am Gleb Lukicov, a PhD candidate in Particle Physics at UCL. Visit my homepage [https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
 
 #### The pinned repositories below are:
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
