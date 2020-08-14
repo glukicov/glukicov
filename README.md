@@ -3,7 +3,8 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://glukicov.github.io)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://glukicov.github.io)
 
-#### I am Gleb Lukicov, a PhD candidate in Particle Physics at UCL. Visit my homepage [https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
+#### I am Gleb Lukicov, a PhD candidate in Particle Physics at UCL. Visit my homepage [https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips. When I am not de-bugging my code, I enjoy doing <a href=https://glukicov.github.io/#interests>Muay Thai</a>, <a href=https://glukicov.github.io/#interests>observational astronomy</a> and <a href=https://glukicov.github.io/#outreach>public outreach</a> You can <a href=mailto:g.lukicov@ucl.ac.uk>contact me</a> with any questions and collaborations ideas, or <a href=https://glukicov.github.io/files/CV_Gleb_Lukicov.pdf>view my CV here</a>.
+
 
 #### The pinned repositories below are:
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
@@ -25,13 +26,6 @@ Alignment software infrastructure is shown below
 
 <div style="text-align:center"><img src="https://github.com/glukicov/ML_GPU/blob/master/docs/gpu.jpeg" height="200" /></div>
 <i>Photo by Caspar Camille Rubin on Unsplash.</i>
-
-
-<br>
-When I am not de-bugging my code, I enjoy doing <a href=https://glukicov.github.io/#interests>Muay Thai</a>, <a href=https://glukicov.github.io/#interests>observational astronomy</a> and <a href=https://glukicov.github.io/#outreach>public outreach</a>.
-
-<br>
-You can <a href=mailto:g.lukicov@ucl.ac.uk>contact me</a> with any questions and collaborations ideas, or <a href=https://glukicov.github.io/files/CV_Gleb_Lukicov.pdf>view my CV here</a>.
 
 <!--
 **glukicov/glukicov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
