@@ -17,7 +17,6 @@ This project contains code and plotting scripts for the internal alignment (cali
 * **The alignment procedure and alignment monitoring, including writing the derived calibration constants to the production database (PSQL), are detailed in [the alignment manual (link)](http://gm2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=9857&filename=manual.pdf&version=16)**
 
 Alignment software infrastructure is shown below 
-![align]()
 <img src="https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png" height="300" />
 
 #### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs.
