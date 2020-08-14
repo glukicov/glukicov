@@ -3,13 +3,15 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://glukicov.github.io)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://glukicov.github.io)
 
-### I am Gleb Lukicov, a PhD candidate in Particle Physics at UCL. Visit my homepage [https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
+### I am Gleb Lukicov, a PhD candidate in Particle Physics at UCL. 
+
+### Visit my homepage [https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research and public outreach interests, as well as my ML projects and workflow tips.
 
 #### The pinned repositories below are:
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
 The <i>g − 2</i> experiment at Fermilab, near Chicago, is closing on a tantalising sign of New Physics (e.g. a new particle) - deviation between an experimentally measured and theoretically predicted value of the muon magnetic anomaly. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below 
 
-<div style="text-align:center"><img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="200" /></div>
+<div style="text-align:center"><img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="250" /></div>
 
 #### 2. [`alignTrack`](https://github.com/glukicov/alignTrack) is the internal alignment (calibration) codebase.
 This project contains code and plotting scripts for the internal alignment (calibration) of the tracking detector. The alignment procedure aims to establish the corrections to the assumed detector position, and hence, minimise the residuals. This minimisation of the residuals is a statistical problem, involving the optimisation of the p-values (i.e. track quality) of fitted tracks in data. 
@@ -21,7 +23,7 @@ Alignment software infrastructure is shown below
 <div style="text-align:center"><img src="https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png" height="300" /></div>
 
 #### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs.
-* **I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04** <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website.</a>
+#### I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a> 
 
 <div style="text-align:center"><img src="https://github.com/glukicov/ML_GPU/blob/master/docs/gpu.jpeg" height="200" /></div>
 <i>Photo by Caspar Camille Rubin on Unsplash.</i>
