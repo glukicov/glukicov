@@ -18,12 +18,12 @@ This project contains code and plotting scripts for the internal alignment (cali
 
 Alignment software infrastructure is shown below 
 
-<img src="https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png" height="300" />
+<div style="text-align:center"><img src="https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png" height="300" /></div>
 
 #### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs.
 * **I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04** <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website.</a>
 
-<img src="https://github.com/glukicov/ML_GPU/blob/master/docs/gpu.jpeg" height="200" />
+<div style="text-align:center"><img src="https://github.com/glukicov/ML_GPU/blob/master/docs/gpu.jpeg" height="200" /></div>
 <i>Photo by Caspar Camille Rubin on Unsplash.</i>
 
 <!--
