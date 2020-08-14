@@ -17,7 +17,8 @@ This project contains code and plotting scripts for the internal alignment (cali
 * **The alignment procedure and alignment monitoring, including writing the derived calibration constants to the production database (PSQL), are detailed in [the alignment manual (link)](http://gm2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=9857&filename=manual.pdf&version=16)**
 
 Alignment software infrastructure is shown below 
-![align](https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png)
+![align]()
+<img src="https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png" height="300" />
 
 #### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs.
 * **I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04** <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website.</a>
