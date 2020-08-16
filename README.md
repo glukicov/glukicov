@@ -7,12 +7,12 @@
 
 
 #### The project repositories below contain some of the analysis code used in my PhD thesis and personal ML projects:
-#### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains analysis code (Python, C++, SQL) to perform Fourier transforms and regression methods on large datasets. 
+#### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains analysis code (Python, C++, SQL) to perform Fourier transforms and regression on large datasets. 
 The <i>g − 2</i> experiment at Fermilab, near Chicago, is closing on a tantalising sign of New Physics (e.g. a new particle) - deviation between an experimentally measured and theoretically predicted value of the muon magnetic anomaly. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below 
 
 <div style="text-align:center"><img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="250" /></div>
 
-#### 2. [`alignTrack`](https://github.com/glukicov/alignTrack) is the detector calibration (alignment) codebase (C++, Python, Fortran) using iterative optimisation and data simulation 
+#### 2. [`alignTrack`](https://github.com/glukicov/alignTrack) is the detector calibration codebase (C++, Python, Fortran) using iterative optimisation and data simulation 
 This project contains code and plotting scripts for the internal alignment (calibration) of the tracking detector. The alignment procedure aims to establish the corrections to the assumed detector position, and hence, minimise the residuals. This minimisation of the residuals is a statistical problem, involving the optimisation of the <i>p</i>-values (i.e. track quality) of fitted tracks in data. 
 * **This work led to a publication (arXiv:1909.12900): <a href=https://arxiv.org/pdf/1909.12900.pdf target="_blank"> https://arxiv.org/pdf/1909.12900.pdf</a>, where alignment results with data are discussed.**
 * **The alignment procedure and alignment monitoring, including writing the derived calibration constants to the production database (PSQL), are detailed in [the alignment manual (link)](http://gm2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=9857&filename=manual.pdf&version=16)**
