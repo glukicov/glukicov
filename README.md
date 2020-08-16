@@ -6,8 +6,8 @@
 #### I am Gleb Lukicov, a PhD candidate in Particle Physics at UCL. Visit [🏠 my homepage https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research, and ML projects. When I am not de-bugging my code, I enjoy doing <a href=https://glukicov.github.io/#interests>🥊 Muay Thai</a>, <a href=https://glukicov.github.io/#interests>🔭 observational astronomy</a>, and <a href=https://glukicov.github.io/#outreach>📣public outreach</a>. You can <a href=mailto:g.lukicov@ucl.ac.uk>📧contact me</a> with any questions and collaborations ideas, or <a href=https://glukicov.github.io/files/CV_Gleb_Lukicov.pdf>📁view my CV here</a>.
 
 
-#### The pinned repositories below are:
-#### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) contains some of the analysis code used in my PhD thesis. 
+#### The project repositories below contain some of the analysis code used in my PhD thesis and personal ML projects:
+#### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking)
 The <i>g − 2</i> experiment at Fermilab, near Chicago, is closing on a tantalising sign of New Physics (e.g. a new particle) - deviation between an experimentally measured and theoretically predicted value of the muon magnetic anomaly. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below 
 
 <div style="text-align:center"><img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="250" /></div>
