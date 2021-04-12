@@ -3,7 +3,7 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://glukicov.github.io)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://glukicov.github.io)
 
-#### I am Gleb Lukicov, a Data Scientist based in London. Visit [🏠 my homepage https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research, and ML projects. When I am not de-bugging my code, I enjoy doing <a href=https://glukicov.github.io/#interests>🥊 Muay Thai</a>, <a href=https://glukicov.github.io/#interests>🔭 observational astronomy</a>, and <a href=https://glukicov.github.io/#outreach>📣public outreach</a>. You can [contact me](https://www.linkedin.com/in/glukicov/) with any questions and collaborations ideas.
+#### I am Gleb Lukicov, a machine learning engineer based in London. Visit [🏠 my homepage https://glukicov.github.io](https://glukicov.github.io) to read about my PhD research, and ML projects. When I am not de-bugging my code, I enjoy doing <a href=https://glukicov.github.io/#interests>🥊 Muay Thai</a>, <a href=https://glukicov.github.io/#interests>🔭 observational astronomy</a>, and <a href=https://glukicov.github.io/#outreach>📣public outreach</a>. You can [contact me](https://www.linkedin.com/in/glukicov/) with any questions and collaborations ideas.
 
 
 #### The project repositories below contain some of the analysis code used in my PhD thesis and personal ML projects:
