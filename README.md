@@ -2,7 +2,7 @@
 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://glukicov.github.io)
 
-I am Gleb Lukicov, a machine learning engineer based in London with a passion for 🤩 MLOps. Visit [my homepage](https://glukicov.github.io) to read about my PhD research and ML projects. When I am not de-bugging my code, I am actively engaged in the 🚀 [MLOps Community London](https://mlops.community/) as a co-host, doing 📝 [tech blogging](https://medium.com/@lukicov), or 🚴‍♂️<a href=https://glukicov.github.io/#interests>road cycling</a>. You can [contact me](https://www.linkedin.com/in/glukicov/) with any questions and collaborations ideas.
+I am Gleb Lukicov, a machine learning engineer based in London with a passion for **MLOps**. Visit [my homepage](https://glukicov.github.io) to read about my PhD research and ML projects. When I am not de-bugging my code, I am actively engaged in the [MLOps Community London](https://mlops.community/) as a co-host, doing 📝 [tech blogging](https://medium.com/@lukicov), or 🚴‍♂️<a href=https://glukicov.github.io/#interests>road cycling</a>. You can [contact me](https://www.linkedin.com/in/glukicov/) with any questions and collaborations ideas.
 
 
 The project repositories below contain some of the analysis code used in my PhD thesis and personal ML projects:
