@@ -2,7 +2,7 @@
 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://glukicov.github.io)
 
-I am Gleb Lukicov, a machine learning engineer based in London with a passion for **MLOps**. Visit [my homepage](https://glukicov.github.io) to read about my PhD research and ML projects. When I am not de-bugging my code, I am actively engaged in the [MLOps Community London](https://mlops.community/) as a co-host, doing 📝 [tech blogging](https://medium.com/@lukicov), or 🚴‍♂️<a href=https://glukicov.github.io/#interests>road cycling</a>. You can [contact me](https://www.linkedin.com/in/glukicov/) with any questions and collaborations ideas.
+I am Gleb Lukicov, a machine learning engineer with a passion for **MLOps**. Visit [my homepage](https://glukicov.github.io) to read about my PhD research and ML projects. When I am not de-bugging my code, I am actively engaged in the [MLOps Community London](https://mlops.community/) as a co-host, doing 📝 [tech blogging](https://medium.com/@lukicov), or 🚴‍♂️ <a href=https://glukicov.github.io/#interests>road cycling</a>. You can contact me for collaborations ideas or questions on [LinkedIn](https://www.linkedin.com/in/glukicov/)).
 
 
 The project repositories below contain some of the analysis code used in my PhD thesis and personal ML projects:
@@ -23,9 +23,9 @@ Alignment software infrastructure is shown below
 
 <div style="text-align:center"><img src="https://github.com/glukicov/alignTrack/blob/master/mpIIDESY/align_4.png" height="300" /></div>
 
-#### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using scikit-learn, TensorFlow and Keras.
+#### 3. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
-I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a>
+I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a>.
 
 <div style="text-align:center"><img src="https://github.com/glukicov/ML_GPU/blob/master/docs/gpu.jpeg" height="200" /></div>
 <i>Photo by Caspar Camille Rubin on Unsplash.</i>
