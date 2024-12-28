@@ -15,12 +15,12 @@ The Muon <i>g − 2</i> experiment at Fermilab, near Chicago, [discovered a tant
 #### 2. [`llm_pipelines_demo`](https://github.com/glukicov/llm_pipelines_demo?tab=readme-ov-file) End-to-end demo of local and remote pipelines with Kubeflow and Vertex AI.
 Implementing local testing using Kubeflow Pipelines to shorten the development cycle using Docker cache, multi-stage builds, and dynamic user credentials injection. Also includes some infrastructure goodies like GitHub CI/CD & `pre-commit` config for *linting* and *testing*, local scripts with `typer`, project dependency management with `uv`, and static checking with `mypy`. This repo is a companion to [this blog post](https://medium.com/@lukicov/ml-pipelines-in-the-age-of-llms-from-local-containers-to-cloud-experiments-1b688dcebee5).
 
-<div style="text-align:center"><img src="https://github.com/glukicov/llm_pipelines_demo/blob/main/docs/imgs/demo.png" height="200" /></div>
+<div style="text-align:center"><img src="https://github.com/glukicov/llm_pipelines_demo/blob/main/docs/imgs/demo.png" height="100" /></div>
 
 #### 3. [`CadenceAI`](https://github.com/glukicov/CadenceAI) Your AI-powered cycling companion 🚴🏻‍♀🤖️🚴‍♂
 Did you know there are over 1 billion bicycles in the world? The cycling industry is entirely commoditised. However, helpful and personalised advice on training, repair and nutrition is out of reach for most people.  Introducing - **Cadence AI**, your all-in-one AI-powered cycling coach, mechanic, analyst and dietitian.
 
-<div style="text-align:center"><img src=https://github.com/glukicov/CadenceAI/blob/master/docs/img/mvp1.jpeg" height="200" /></div>
+<div style="text-align:center"><img src="https://github.com/glukicov/CadenceAI/blob/master/docs/img/mvp1.jpeg" height="100" /></div>
 
 #### 4. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
