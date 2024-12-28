@@ -8,7 +8,7 @@ I am Gleb Lukicov, a machine learning engineer with a passion for **MLOps**. Vis
 The projects below contain analysis code used in my PhD thesis and personal ML projects:
 
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) code to perform Fourier transforms and regression analysis on large datasets. 
-The Muon <i>g − 2</i> experiment at Fermilab, near Chicago, [discovered a tantalising sign of New Physics (a new force of nature!)](https://www.bbc.co.uk/news/science-environment-66407099). This was done by measuring a deviation between the experimental and theoretically predicted value of the muon magnetic anomaly. As part of my PhD, I collaborated on the experiment with 200 scientists and engineers. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below: 
+The Muon <i>g − 2</i> experiment at Fermilab, near Chicago, [discovered a tantalising sign of New Physics (a new force of nature!)](https://www.bbc.co.uk/news/science-environment-66407099). This was done by measuring a deviation between the experimental and theoretically predicted value of the muon magnetic anomaly. As part of [my PhD](https://glukicov.github.io/#research), I collaborated on the experiment with 200 scientists and engineers. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below: 
 
 <div style="text-align:center"><img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="250" /></div>
 
