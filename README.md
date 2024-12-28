@@ -13,7 +13,8 @@ The Muon <i>g − 2</i> experiment at Fermilab, near Chicago, [discovered a tant
 <div style="text-align:center"><img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="250" /></div>
 
 #### 2. [`llm_pipelines_demo`](https://github.com/glukicov/llm_pipelines_demo?tab=readme-ov-file) End-to-end demo of local and remote pipelines with Kubeflow and Vertex AI.
-Implementing local testing using Kubeflow Pipelines to shorten the development cycle using Docker cache, multi-stage builds, and dynamic user credentials injection. Also includes some infrastructure goodies like GitHub CI/CD & `pre-commit` config for *linting* and *testing*, local scripts with `typer`, project dependency management with `uv`, and static checking with `mypy`. This repo is a companion to [this blog post](https://medium.com/@lukicov/ml-pipelines-in-the-age-of-llms-from-local-containers-to-cloud-experiments-1b688dcebee5).
+To make your systems data-centric and model-agnostic, a robust evaluation framework is essential. Pipelines are particularly useful for this purpose. I demonstrate how to implement local testing using Kubeflow Pipelines to shorten the development cycle using Docker cache, multi-stage builds, dynamic user credentials injection, and experiment tracking on Google Cloud. 
+Also included are infrastructure goodies like GitHub CI/CD & `pre-commit` config for *linting* and *testing*, local scripts with `typer`, project dependency management with `uv`, and static checking with `mypy`. This repo is a companion to [this blog post](https://medium.com/@lukicov/ml-pipelines-in-the-age-of-llms-from-local-containers-to-cloud-experiments-1b688dcebee5).
 
 <div style="text-align:center"><img src="https://github.com/glukicov/llm_pipelines_demo/blob/main/docs/imgs/demo.png" height="100" /></div>
 
