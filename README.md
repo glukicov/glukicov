@@ -8,7 +8,7 @@ I am Gleb Lukicov, a machine learning engineer with a passion for **MLOps**. Vis
 The projects below contain analysis code used in my PhD thesis and personal ML projects:
 
 #### 1. [`EDMTracking`](https://github.com/glukicov/EDMTracking) code to perform Fourier transforms and regression analysis on large datasets. 
-The Muon <i>g − 2</i> experiment at Fermilab, near Chicago, [discovered a tantalising sign of New Physics (a new force of nature!)](https://www.bbc.co.uk/news/science-environment-66407099). This was done by measuring a deviation between the experimental and theoretically predicted value of the muon magnetic anomaly. As part of my PhD, I collaborated on the experiment with 200 scientists and engineers. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below 
+The Muon <i>g − 2</i> experiment at Fermilab, near Chicago, [discovered a tantalising sign of New Physics (a new force of nature!)](https://www.bbc.co.uk/news/science-environment-66407099). This was done by measuring a deviation between the experimental and theoretically predicted value of the muon magnetic anomaly. As part of my PhD, I collaborated on the experiment with 200 scientists and engineers. This project contains analysis code to measure the Electric Dipole Moment (EDM) of the muon using the tracking detectors. The oscillation in the number of the observed tracks in the detector can be plotted and fitted, as shown below: 
 
 <div style="text-align:center"><img src="https://github.com/glukicov/EDMTracking/blob/master/docs/edm.gif" height="250" /></div>
 
@@ -21,7 +21,7 @@ Also included are infrastructure goodies like GitHub CI/CD & `pre-commit` config
 #### 3. [`CadenceAI`](https://github.com/glukicov/CadenceAI) Your AI-powered cycling companion 🚴🏻‍♀🤖️🚴‍♂
 Did you know there are over 1 billion bicycles in the world? The cycling industry is entirely commoditised. However, helpful and personalised advice on training, repair and nutrition is out of reach for most people.  Introducing - **Cadence AI**, your all-in-one AI-powered cycling coach, mechanic, analyst and dietitian.
 
-<div style="text-align:center"><img src="https://github.com/glukicov/CadenceAI/blob/master/docs/img/mvp1.jpeg" height="100" /></div>
+<div style="text-align:center"><img src="https://github.com/glukicov/CadenceAI/blob/master/docs/img/mvp1.jpeg" height="250" /></div>
 
 #### 4. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
