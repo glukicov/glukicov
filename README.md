@@ -2,7 +2,7 @@
 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://glukicov.github.io)
 
-I am Gleb Lukicov, a machine learning engineer with a passion for **MLOps**. Visit [my homepage](https://glukicov.github.io) to read about my PhD research and ML projects. When I am not de-bugging my code, I am actively engaged in the [MLOps Community London](https://lu.ma/london-mlops) as a co-host, 📝 [tech blogging](https://medium.com/@lukicov), or 🚴‍♂️ <a href=https://glukicov.github.io/#interests>road cycling</a>. You can contact me for collaborations ideas or questions on [LinkedIn](https://www.linkedin.com/in/glukicov/).
+I am Gleb Lukicov, a machine learning engineer with a passion for **MLOps**. Visit [my homepage](https://glukicov.github.io) to read about my PhD research and ML projects. When I am not de-bugging my code, I am actively engaged in the [MLOps Community London](https://luma.com/aaif-london) as a co-host, 📝 [tech blogging](https://medium.com/@lukicov), or 🚴‍♂️ <a href=https://glukicov.github.io/#interests>road cycling</a>. You can contact me for collaborations ideas or questions on [LinkedIn](https://www.linkedin.com/in/glukicov/).
 
 
 The projects below contain analysis code used in my PhD thesis and personal ML projects:
@@ -21,7 +21,7 @@ Also included are infrastructure goodies like GitHub CI/CD & `pre-commit` config
 #### 3. [`slideops`](https://github.com/glukicov/slideops) Turn a repository into a slide deck that tells you when it stops matching the code.
 Your documentation is a build artifact, so it is worth treating it like one. **SlideOps** is a pair of Agent Skills: one turns a repository into a single-file HTML slide deck, the other tells you when that deck stops matching the code. Every reference in the deck carries its source file, the exact line range, and a hash of those lines, so the check costs zero tokens and runs in milliseconds. This repo is a companion to [this blog post](https://medium.com/@lukicov/your-documentation-is-a-build-artifact-start-treating-it-like-one-ab48df61b1e0).
 
-<div style="text-align:center"><img src="images/x-hero-card.png" width="600" /></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/glukicov/master/images/x-hero-card.png" width="600" /></div>
 
 #### 4. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
