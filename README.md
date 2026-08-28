@@ -18,10 +18,10 @@ Also included are infrastructure goodies like GitHub CI/CD & `pre-commit` config
 
 <div style="text-align:center"><img src="https://github.com/glukicov/llm_pipelines_demo/blob/main/docs/imgs/demo.png" height="100" /></div>
 
-#### 3. [`CadenceAI`](https://github.com/glukicov/CadenceAI) Your AI-powered cycling companion 🚴🏻‍♀🤖️🚴‍♂
-Did you know there are over 1 billion bicycles in the world? The cycling industry is entirely commoditised. However, helpful and personalised advice on training, repair and nutrition is out of reach for most people.  Introducing - **Cadence AI**, your all-in-one AI-powered cycling coach, mechanic, analyst and dietitian.
+#### 3. [`slideops`](https://github.com/glukicov/slideops) Turn a repository into a slide deck that tells you when it stops matching the code.
+Your documentation is a build artifact, so it is worth treating it like one. **SlideOps** is a pair of Agent Skills: one turns a repository into a single-file HTML slide deck, the other tells you when that deck stops matching the code. Every reference in the deck carries its source file, the exact line range, and a hash of those lines, so the check costs zero tokens and runs in milliseconds. This repo is a companion to [this blog post](https://medium.com/@lukicov/your-documentation-is-a-build-artifact-start-treating-it-like-one-ab48df61b1e0).
 
-<div style="text-align:center"><img src="https://github.com/glukicov/CadenceAI/blob/master/docs/img/mvp1.jpeg" height="250" /></div>
+<div style="text-align:center"><img src="https://github.com/glukicov/slideops/blob/main/docs/hero.png" height="250" /></div>
 
 #### 4. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
