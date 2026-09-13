@@ -23,7 +23,12 @@ Your documentation is a build artifact, so it is worth treating it like one. **S
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/glukicov/master/images/x-hero-card.png" width="600" /></div>
 
-#### 4. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
+#### 4. [`ltm`](https://github.com/glukicov/ltm) Can a tabular foundation model replace your training pipeline?
+I tried to make an LLM fail on tabular data. It didn't, sort of! **LTM** puts Google's tabular foundation model, TabFM, head to head with a trained CatBoost model and GPT-6 Astra on the same rows, and then changes the table under all three: the same columns shuffled, then two new columns inserted mid-table. The deployed CatBoost model crashed on both changes, GPT-6 Astra changed 22 of its 240 answers on a column shuffle, and TabFM changed none, then used the new columns straight away with nothing retrained. Every prediction behind the results is committed. This repo is a companion to [this blog post](https://medium.com/@lukicov/i-tried-to-make-an-llm-fail-on-tabular-data-it-didnt-sort-of-428d89acdb51).
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/glukicov/master/images/ltm-terminal.png" width="600" /></div>
+
+#### 5. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
 I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a>.
 
