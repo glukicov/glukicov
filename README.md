@@ -28,7 +28,12 @@ I tried to make an LLM fail on tabular data. It didn't, sort of! **LTM** puts Go
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/glukicov/master/images/ltm-terminal.png" width="600" /></div>
 
-#### 5. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
+#### 5. [`ltm_ft`](https://github.com/glukicov/ltm_ft) Does fine-tuning a tabular foundation model beat its in-context learning?
+A follow-up to LTM: instead of just prompting TabFM, I fine-tuned it, measured honestly against its own zero-shot in-context learning on synthetic data where the best achievable score is known, and ran the same code on an Apple M4 laptop and as a Kubernetes Job on an NVIDIA L4 in GKE. Training the row/column encoders takes a checkerboard task from 66.5% to 93.8% test accuracy, close to the 94.9% ceiling — but only on 2 of 5 data seeds; the others collapse to predicting 0.5 for every row. The L4 ran fine-tuning 9× faster than the laptop, for about $1.30 in GPU time.
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/glukicov/master/images/ltm-ft-seeds.png" width="600" /></div>
+
+#### 6. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
 I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a>.
 
