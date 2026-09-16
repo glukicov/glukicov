@@ -33,7 +33,12 @@ A follow-up to LTM: instead of just prompting TabFM, I fine-tuned it, measured h
 
 <div style="text-align:center"><img src="images/ltm-ft-checkerboard-validation.png" width="600" /></div>
 
-#### 6. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
+#### 6. [`ltm_serve`](https://github.com/glukicov/ltm_serve) TabFM re-reads its whole training table on every prediction. Can it still serve online requests in ~100 ms?
+The third repo in the LTM series takes TabFM from a `predict_proba` call in a notebook to low-latency online serving: measure it properly, optimise the model, then serve it three ways (FastAPI, Triton, KServe) on a laptop and on an NVIDIA L4 in GKE. TabFM's attention masks let the training rows be cached exactly, like an LLM's KV cache: 9.47 s → 129 ms (74×) at 8,192 context rows. `torch.compile` with CUDA graphs then cut the cached forward from 111 ms to 28 ms, and compiled Triton on one L4 served 160 req/s at p50 91 ms / p99 125 ms. The load generator was the bottleneck twice, and Kubernetes set the rest of the bill: a 7 min 12 s cold start from zero GPU nodes and a 20–23 min compile warm-up per cold replica. This repo is a companion to [this blog post](https://medium.com/@lukicov/lessons-learnt-from-serving-a-1-6b-parameter-tabular-model-online-on-one-gpu-in-kubernetes-f1a2a357ecc5).
+
+<div style="text-align:center"><img src="images/ltm-serve-context-scaling.png" width="600" /></div>
+
+#### 7. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
 I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a>.
 
