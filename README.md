@@ -33,12 +33,17 @@ A follow-up to LTM: instead of just prompting TabFM, I fine-tuned it, measured h
 
 <div style="text-align:center"><img src="images/ltm-ft-checkerboard-validation.png" width="600" /></div>
 
-#### 6. [`laya_router`](https://github.com/glukicov/laya_router) Does a model router need a language model on every request?
+#### 6. [`ltm_serve`](https://github.com/glukicov/ltm_serve) TabFM re-reads its whole training table on every prediction. Can it still serve online requests in ~100 ms?
+The third repo in the LTM series takes TabFM from a `predict_proba` call in a notebook to low-latency online serving: measure it properly, optimise the model, then serve it three ways (FastAPI, Triton, KServe) on a laptop and on an NVIDIA L4 in GKE. TabFM's attention masks let the training rows be cached exactly, like an LLM's KV cache: 9.47 s → 129 ms (74×) at 8,192 context rows. `torch.compile` with CUDA graphs then cut the cached forward from 111 ms to 28 ms, and compiled Triton on one L4 served 160 req/s at p50 91 ms / p99 125 ms. The load generator was the bottleneck twice, and Kubernetes set the rest of the bill: a 7 min 12 s cold start from zero GPU nodes and a 20–23 min compile warm-up per cold replica. This repo is a companion to [this blog post](https://medium.com/@lukicov/lessons-learnt-from-serving-a-1-6b-parameter-tabular-model-online-on-one-gpu-in-kubernetes-f1a2a357ecc5).
+
+<div style="text-align:center"><img src="images/ltm-serve-context-scaling.png" width="600" /></div>
+
+#### 7. [`laya_router`](https://github.com/glukicov/laya_router) Does a model router need a language model on every request?
 **Laya Router** puts a local, open-source 421M-parameter System 1 decision model alongside GPT-5 nano behind the same FastAPI endpoint, then evaluates both on 180 labelled routing requests. They tie at 60% routing accuracy, but Laya makes one non-autoregressive forward pass in 184 ms with no per-request API cost; GPT-5 nano takes 6.4 s at the median while generating about 1,400 reasoning tokens per decision. The project includes reproducible evaluation, calibration and prompt-wording ablations, a resident local service, and a one-replica Kubernetes packaging proof. This repo is a companion to [this blog post](https://medium.com/@lukicov/smart-routing-with-an-open-source-system-1-model-laya-416fe771ce2e).
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/laya_router/main/docs/figures/routing.png" width="600" /></div>
 
-#### 7. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
+#### 8. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
 I wrote a practical guide on setting a personal GPU server for Machine Learning with Ubuntu 20.04 <a href=https://towardsdatascience.com/set-up-of-a-personal-gpu-server-for-machine-learning-with-ubuntu-20-04-100e787105ad target="_blank"> avaialbe on the Towards Data Science (TDS) website</a>.
 
