@@ -36,7 +36,7 @@ A follow-up to LTM: instead of just prompting TabFM, I fine-tuned it, measured h
 #### 6. [`laya_router`](https://github.com/glukicov/laya_router) Does a model router need a language model on every request?
 **Laya Router** puts a local, open-source 421M-parameter System 1 decision model alongside GPT-5 nano behind the same FastAPI endpoint, then evaluates both on 180 labelled routing requests. They tie at 60% routing accuracy, but Laya makes one non-autoregressive forward pass in 184 ms with no per-request API cost; GPT-5 nano takes 6.4 s at the median while generating about 1,400 reasoning tokens per decision. The project includes reproducible evaluation, calibration and prompt-wording ablations, a resident local service, and a one-replica Kubernetes packaging proof. This repo is a companion to [this blog post](https://medium.com/@lukicov/smart-routing-with-an-open-source-system-1-model-laya-416fe771ce2e).
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/laya_router/main/docs/figures/hero.png" width="600" /></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/glukicov/laya_router/main/docs/figures/routing.png" width="600" /></div>
 
 #### 7. [`ML_GPU`](https://github.com/glukicov/ML_GPU) contains personal practice ML code, and Deep Learning on GPUs using `scikit-learn`, `TensorFlow` and `Keras`.
 
